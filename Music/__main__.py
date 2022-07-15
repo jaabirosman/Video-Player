@@ -46,8 +46,8 @@ async def load_start():
             await remove_active_chat(served_chat)
         except Exception:
             print("Error came while clearing db")
-    await app.send_message(LOG_GROUP_ID, "-1001150107625")
-    await client.send_message(LOG_GROUP_ID, "-1001150107625")
+    await app.send_message(LOG_GROUP_ID, "Osmani BotStarted")
+    await client.send_message(LOG_GROUP_ID, "Assistant Started")
     await client.join_chat("osmanigroupbot")
     print("[INFO]: STARTED")
 
