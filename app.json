@@ -1,8 +1,8 @@
 {
-    "name": "Video-Player",
+    "name": "Rib-Video-Player",
     "description": "Music allow you to Video/Audio stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/ITZ-ZAID/Video-Player",
+    "repository": "https://github.com/ribfirst/Video-Player",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -37,12 +37,12 @@
         "GROUP": {
             "description": "Isi dengan username group tanpa @",
             "required": true,
-            "value": "Superior_Support"
+            "value": "osmanigroupbot"
         },
          "CHANNEL": {
             "description": "Isi dengan username channel tanpa @",
             "required": true,
-            "value": "Superior_Bots"
+            "value": "teamosmani"
         },
         "SUDO_USERS": {
             "description": " add @Zaid2_Robot and Type /id fill with the user id who can access all function in your bot (separate with space).",
