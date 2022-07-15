@@ -90,7 +90,7 @@ To use me I need to be admin with permissions:
 » Block user 
 » Add user 
 » Manage voice chat 
-Powered by : [Premium Music](t.me/{BOT_USERNAME})
+Powered by : [Osmani Music](t.me/{BOT_USERNAME})
 """,
             disable_web_page_preview=True,
         )
@@ -111,7 +111,7 @@ Powered by: [{BOT_NAME}](t.me/{BOT_USERNAME})
 To use me I need to be admin with permissions: 
 
 » Delete message 
-Powered by: [Premium Music](t.me/{BOT_USERNAME})
+Powered by: [Osmani Music](t.me/{BOT_USERNAME})
 """,
             disable_web_page_preview=True,
         )
@@ -122,7 +122,7 @@ Powered by: [Premium Music](t.me/{BOT_USERNAME})
 💡 To use me, I need to be an admin with permission: 
 
 »❌ Add users 
-Powered by: [Premium Music](t.me/{BOT_USERNAME})
+Powered by: [Osmani Music](t.me/{BOT_USERNAME})
 """,
             disable_web_page_preview=True,
         )
