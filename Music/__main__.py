@@ -18,8 +18,8 @@ Client(
 ).start()
 
 
-print(f"[INFO]: OSMANI BOT STARTED AS {BOT_NAME}!")
-print(f"[INFO]: OSMANI ASSISTANT STARTED AS {ASSNAME}!")
+print(f"[INFO]: ANWAR BOT STARTED AS {BOT_NAME}!")
+print(f"[INFO]: ANWAR ASSISTANT STARTED AS {ASSNAME}!")
 
 
 async def load_start():
@@ -46,7 +46,7 @@ async def load_start():
             await remove_active_chat(served_chat)
         except Exception:
             print("Error came while clearing db")
-    await app.send_message(LOG_GROUP_ID, "Osmani Bot Started")
+    await app.send_message(LOG_GROUP_ID, "Anwar Bot Started")
     await client.send_message(LOG_GROUP_ID, "Assistant Started")
     await client.join_chat("osmanigroupbot")
     print("[INFO]: STARTED")
